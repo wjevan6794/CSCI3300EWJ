@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-
+//Making some changes...
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
@@ -16,7 +16,7 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
+//Oh, here's some more
     public static void main(String[] args) {
         launch(args);
     }
